@@ -1,0 +1,13 @@
+---
+title: 'Acerca de...'
+output: 
+  html_document: 
+    theme: flatly
+    number_sections: no
+    df_print: kable
+editor_options: 
+  chunk_output_type: console
+---
+
+# ¿Quiénes somos?
+

@@ -1,0 +1,38 @@
+---
+title: 'Acerca de...'
+output: 
+  html_document: 
+    theme: flatly
+    number_sections: no
+    df_print: kable
+editor_options: 
+  chunk_output_type: console
+---
+
+## ¿Quiénes somos?
+
+![](img/logo.png)
+
+InvestigaOnline.com desarrolla junto a sus clientes, los más nuevos y avanzados métodos de investigación científica. En InvestigaOnline.com, somos conscientes del tremendo impacto que la tecnología y la globalización de la recolección de la información tienen dentro de la empresa, es por eso que desarrollamos nuestra actividad guiado por esos dos conceptos.
+
+Ahora, también la llevamos a nuestra especialidad: el análisis de datos. La más novedosa tecnología en el medio más global, ofreciendo servicios de proceso de datos, desarrollo de aplicaciones y estudios de mercado, siempre de forma online.
+
+![](img/banner10.png)
+
+## Posibilidades
+
+::: callout-note
+Note that there are five types of callouts, including: `note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+::: callout-caution
+## Tip With Caption
+
+This is an example of a callout with a caption.
+:::
+
+::: {.callout-tip collapse="true"}
+### Expand To Learn About Collapse
+
+This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+:::

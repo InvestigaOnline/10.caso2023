@@ -1,0 +1,46 @@
+project:
+  type: website
+website:
+  title: "Caso 2022-2023"
+  favicon: img/favicon-image.png
+  search: true
+  navbar:
+    logo: img/logo.png
+    background: cadetblue
+    foreground: white
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Preliminares
+        href: descripcion.qmd
+      - text: Resultados
+        menu:
+           - href: 01.qmd
+             text: Objetivo 1
+           - href: 02.qmd
+             text: Objetivo 2
+           - href: 03.qmd
+             text: Objetivo 3
+           - href: 04.qmd
+             text: Objetivo 4
+           - href: 05.qmd
+             text: Objetivo 5
+           - href: 06.qmd
+             text: Objetivo 6
+           - href: 07.qmd
+             text: Objetivo 7
+           - href: 08.qmd
+             text: Objetivo 8
+    right:
+      - text: Acerca de ...
+        href: about.qmd
+format:
+  html:
+    theme: paper
+    css: styles.css
+    toc: true
+editor: source
+body-header:
+  header.html
+body-footer:
+  footer.html
